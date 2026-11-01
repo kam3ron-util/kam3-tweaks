@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+
+# Generated builds, candidate binaries, and release preparation
+/build*/
+/dist/
+/candidate_*/
+/release_assets/
+/release_*/
+/backup/
+/test_sandbox/
+/release_screenshots/
+/assets/
+*.spec
+*.exe
+*.dll
+*.log
+*.tmp
+SHA256SUMS.txt
+update-manifest.json
+
+# Test-created user data and temporary fixtures
+tests/pcboost-test-data-*/
+tests/tmp*/
+
+# Credentials and signing material — keep keys outside the repository
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.enc
+*.sig
+*.secret
+*credentials*
+*passphrase*
+/signing/
+/secrets/
